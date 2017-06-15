@@ -1,0 +1,124 @@
+<?php 	
+	
+	//Delete
+	// $dsn = "mysql:dbname=blog;host=localhost";
+	// $dbuser = "root";
+	// $dbpass = "";
+
+	// try{
+
+	// 	$pdo = new PDO($dsn, $dbuser, $dbpass);
+
+	// 	$sql = "DELETE FROM clientes where id = 1";
+
+	// 	$pdo->query($sql);
+
+	// 	echo "Usuário deletado com sucesso!";
+
+	// }catch(PDOException $e){
+
+	// 	echo "Falho: ".$e->getMessage();
+
+	// }
+
+	//update
+	// $dsn = "mysql:dbname=blog;host=localhost";
+	// $dbuser = "root";
+	// $dbpass = "";
+
+	// try{
+
+	// 	$pdo = new PDO($dsn, $dbuser, $dbpass);
+
+	// 	$sql = "UPDATE clientes SET email = 'joao@marcos.com' WHERE email = 'joao'";
+
+	// 	$sql = $pdo->query($sql);
+
+	// 	echo "Usuário alterado com sucesso.";
+
+	// }catch(PDOException $e){
+
+	// 	echo "Falho: ".$e->getMessage();
+
+	// }
+
+	// Insert
+	// $dsn = "mysql:dbname=blog;host=localhost";
+	// $dbuser = "root";
+	// $dbpass = "";
+
+	// try{
+
+	// 	$pdo = new PDO($dsn, $dbuser, $dbpass);
+
+	// 	$nome = "Testador";
+	// 	$email = "joao@.com";
+		
+	// 	$sql = "INSERT INTO clientes SET nome = '$nome', email = '$email'";
+	// 	$sql = $pdo->query($sql);
+
+	// 	echo "Usuário inserido: ".$pdo->lastInsertId();
+
+	// }catch(PDOException $e){
+
+	// 	echo "Falho: ".$e->getMessage();
+
+	// }
+	
+	//Select
+	// $dsn = "mysql:dbname=blog;host=localhost";
+	// $dbuser = "root";
+	// $dbpass = "";
+
+	// try{
+
+	// 	$pdo = new PDO($dsn, $dbuser, $dbpass);
+	// 	$sql = "SELECT * FROM clientes";
+	// 	$sql = $pdo->query($sql);
+
+	// 	if($sql->rowCount() > 0){
+	// 		foreach ($sql->fetchAll() as $cliente) {
+	// 			echo "Nome: ".$cliente["nome"]." - ".$cliente["email"]."</br>";
+	// 		}
+	// 	}else{
+	// 		echo "Não há usuários cadastrados!";
+	// 	}
+
+	// }catch(PDOException $e){
+
+	// 	echo "Falho: ".$e->getMessage();
+
+	// }
+
+	// function somarNumero($x, $y){
+	// 	return $x + $y;
+	// }
+
+	// $resultado = somarNumero(10, 20);
+	// echo $resultado;
+
+	// $nomes = array(
+	// 		array("nome"=>"João", "idade"=>90),
+	// 		array("nome"=>"Andrè", "idade"=>92),
+	// 		array("nome"=>"Fulano", "idade"=>12),
+	// 		array("nome"=>"Cicrano", "idade"=>120),
+	// 	);
+
+	// foreach($nomes as $aluno){
+	// 	echo "Nomes: ".$aluno["nome"]." - Idade: ".$aluno["idade"]."<br/>";
+	// }
+
+	// for($x = 0; $x < 10; $x++){
+	// 	echo "X é igual a ".$x."<br/>";
+	// }
+
+	// $x = 0;
+
+	// while($x <= 10){
+
+	// 	echo "X é igual a ".$x."<br/>";
+
+	// 	$x++;
+	// }
+
+?>
